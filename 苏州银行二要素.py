@@ -104,4 +104,4 @@ def main(name:str,card:str):
         return {'data':f"{name}-{card} 二要素验证失败❌"}
 
 if __name__ == '__main__':
-    uvicorn.run(app='苏州银行二要素:app', host='0.0.0.0', port=78441)
+    uvicorn.run(app='苏州银行二要素:app', host='0.0.0.0', port=38841)
